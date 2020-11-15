@@ -1,0 +1,172 @@
+@import
+url(https://fonts.googleapis.com/css?family=News+Cycle|Playfair+Display);
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+#wrapper{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+nav{
+	width: 100%;
+}
+
+.spraak {
+	display: inline;
+	font-family: 'Oswald', sans-serif;
+	color: black;
+}
+
+a:link {
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+  }
+  
+  a:hover {
+	color: blue;
+	background-color: transparent;
+  }
+
+header{
+	width: 100%;
+	background-color: white;
+	text-align: center;
+}
+
+header h1{
+	color: #272727;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+header img{
+	width: 100%;
+	max-width: 2000px;
+}
+
+main{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	height: 500px;
+	text-align: center;
+}
+
+main h2{
+	padding-bottom: 5px;
+	font-size: 40px;
+	color: #272727;
+	font-family: 'Oswald', sans-serif;
+	padding-top: 1%;
+}
+
+.main2 {
+	padding-bottom: 5px;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	background-color: black;
+	padding-left: 20%;
+	height: 570px;
+}
+
+main p{
+	color: #272727;
+	font-family: 'News Cycle', sans-serif;
+	height: 400px;
+	text-align: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 3%;
+	padding-bottom: 0%;
+}
+
+
+
+#bilde1{
+	padding-top: 20px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 15%;
+}
+
+#menyen{
+	order: 2;
+}
+
+#tekstheader{
+	order: 1;
+}
+
+#bildeheader{
+	order: 2;
+}
+
+main{
+	order: 3;
+	flex-wrap: nowrap;
+}
+
+main article{
+	padding: 10px;
+	border: none;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	font-size: 70px;
+	padding-top: 10px;
+  }
+
+  
+  .column {
+	float: center;
+	width: 60%;
+	padding: 5px;
+	transition: transform .2s;
+	text-align:center;
+	padding-top: 40%;
+	padding-left: 0%;
+  }
+  
+  .row::after {
+	order: 1;
+	content: "";
+	clear: both;
+	display: table;
+	padding: 0;
+  }
+  .row2::after {
+	order: 2;
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+  .column:hover {
+	transform: scale(1.1);
+}
+
+#footer {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: grey;
+	color: white;
+	order: 5;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	height: 420px;
+	margin-top: 0%;
+  }
+
+  
