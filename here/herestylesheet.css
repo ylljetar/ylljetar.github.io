@@ -16,7 +16,7 @@ body{
 }
 
 .bildeheader {
-  width: 640px;
+  width: 100%;
   height: 200px;
   position: fixed;
   background-color: #ffffff;
